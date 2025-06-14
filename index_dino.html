@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jurassic World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: white;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+      padding: 10px 30px;
+      border-bottom: 2px solid #1e1e1e;
+    }
+
+    .navbar .logo img {
+      height: 50px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: #00ffcc;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: url('https://wallpapercave.com/wp/wp2307193.jpg') no-repeat center center/cover;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: auto;
+      text-shadow: 1px 1px 4px #000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">
+      <a href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/28/Jurassic_World_logo.png" alt="Jurassic World Logo">
+      </a>
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Dinosaurs</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">Merchandise</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="hero">
+    <h1>Welcome to Jurassic World</h1>
+    <p>Explore the age of dinosaurs, discover thrilling adventures, and relive the epic saga of Jurassic World.</p>
+  </div>
+
+
+  <div class="dinosaurs">
+    <h2 style="text-align:center; padding-top: 40px;">Meet the Dinosaurs</h2>
+    <div class="dino-container">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Tyrannosaurus_Rex_Holotype.jpg" alt="T-Rex">
+        <h3>Tyrannosaurus Rex</h3>
+        <p>The king of the dinosaurs, known for its massive jaws and fierce presence.</p>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Triceratops_BW.jpg" alt="Triceratops">
+        <h3>Triceratops</h3>
+        <p>Famous for its three horns and large frill, a powerful herbivore.</p>
+      </div>
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Velociraptor_dinoguy2.jpg" alt="Velociraptor">
+        <h3>Velociraptor</h3>
+        <p>Fast, intelligent, and lethal—made famous by Jurassic Park.</p>
+      </div>
+    </div>
+  </div>
+  <style>
+    .dinosaurs {
+      background-color: #1c1c1c;
+      padding-bottom: 60px;
+    }
+    .dino-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .card {
+      background-color: #222;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      padding: 20px;
+      text-align: center;
+      width: 250px;
+      color: white;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      height: 160px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+    .card p {
+      font-size: 14px;
+    }
+  </style>
+
+</body>
+</html>
